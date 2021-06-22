@@ -1,4 +1,4 @@
-//top of 9.2.6
+//top of 9.2.7
 
 const fs = require('fs');
 const generatePage = require(`./src/page-template.js`);
