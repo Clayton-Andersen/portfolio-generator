@@ -1,6 +1,14 @@
 const inquirer = require('inquirer');
-// 9.3.5 From this example, let's mimic the same pattern and add it to the app.js file, as shown here:
-
+ inquirer 
+ .prompt([
+     {
+         type: 'input',
+         name: 'name',
+         message: 'What is your name?'
+     }
+ ])
+ .then(answers => console.log(answers));
+ 
 // const fs = require('fs');
 // const generatePage = require(`./src/page-template.js`);
 
